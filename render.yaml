@@ -1,7 +1,7 @@
 services:
   - type: web
     plan: free
-    name: PETER-PARKER-BOT
+    name: 𝚂𝙲𝙰𝚁𝙻𝙴𝚃𝚃 𝙱𝙾𝚃
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
@@ -9,21 +9,21 @@ services:
     branch: main
     envVars:
       - key: BOT_TOKEN 
-        sync: false
+        sync: true
       - key: API_ID 
-        sync: false
+        sync: true
       - key: API_HASH 
-        sync: false
+        sync: true
       - key: AUTH_CHANNEL
-        sync: false
+        sync: true
       - key: DATABASE_NAME
-        sync: false
+        sync: true
       - key: DATABASE_URL 
-        sync: false 
+        sync: true
       - key: PICS 
-        sync: false
+        sync: true
       - key: ADMINS
-        sync: false    
+        sync: true    
       - key: LOG_CHANNEL
-        sync: false
+        sync: true
     autoDeploy: false 
