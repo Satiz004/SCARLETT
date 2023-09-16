@@ -106,7 +106,7 @@ async def who_is(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=local_user_photo,
-            quote=True,
+            quote=False,
             reply_markup=reply_markup,
             caption=message_out_str,
             parse_mode=enums.ParseMode.HTML,
@@ -121,7 +121,7 @@ async def who_is(client, message):
         await message.reply_text(
             text=message_out_str,
             reply_markup=reply_markup,
-            quote=True,
+            quote=False,
             parse_mode=enums.ParseMode.HTML,
             disable_notification=True
         )
