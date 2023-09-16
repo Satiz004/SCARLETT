@@ -340,7 +340,7 @@ async def delete_all_index(bot, message):
                 ],
             ]
         ),
-        quote=True,
+        quote=False,
     )
 
 
